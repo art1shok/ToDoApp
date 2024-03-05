@@ -1,0 +1,60 @@
+{
+  "extends": [
+    "@wemake-services/javascript",
+    "@wemake-services/typescript/recommended"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "typescript",
+    "import-helpers"
+  ],
+  "rules": {
+    "import/named": 0,
+    "import-helpers/order-imports": [
+      "error",
+      {
+        "newlinesBetween": "always",
+        "groups": ["module", "/^~//", "/^@//"],
+        "alphabetize": { "order": "asc", "ignoreCase": false }
+      }
+    ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true 
+      }
+    ],
+    "id-length": [
+      "error",
+      {
+        "min": 2
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreComments": true
+      }
+    ]
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "project": "./tsconfig.json"
+  },
+ "settings": {
+    "import/resolver": {
+       "node": {
+         "extensions": [".js", ".jsx", ".ts", ".tsx"]
+       }
+    }
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  }
+}

@@ -1,0 +1,79 @@
+.taskItem {
+  display: flex;
+  justify-content: center;
+
+  padding: 8px 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(77, 77, 77, 1) 50%,
+    rgba(255, 0, 0, 1) 100%
+  );
+
+  border-radius: 20px;
+}
+.taskTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.completedTask {
+  background: linear-gradient(
+    90deg,
+    rgba(77, 77, 77, 1) 50%,
+    rgba(0, 255, 51, 1) 100%
+  );
+}
+
+.input {
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.taskText {
+  font-size: 20px;
+  line-height: 24px;
+  width: 80%;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .taskItem {
+    padding: 16px 32px;
+  }
+  .taskTextContainer {
+    width: 100%;
+  }
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .taskItem {
+    padding: 4px 8px;
+  }
+  .taskTextContainer {
+    padding: 2px;
+  }
+}

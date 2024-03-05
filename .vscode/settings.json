@@ -1,0 +1,36 @@
+{
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "yaml.schemas": {
+    "file:///c%3A/Users/Kolja/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": false,
+  "atlascode.jira.enabled": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Spanish",
+  "redhat.telemetry.enabled": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "none",
+  "editor.codeActionsOnSave": [
+    "editor.formatOnSave",
+    "source.organizeImports",
+    "source.sortImports",
+    "source.fixAll"
+  ],
+  "eslint.validate": ["javascript"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "atlascode.jira.jqlList": [],
+  "git.ignoreRebaseWarning": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": -1,
+  "workbench.settings.applyToAllProfiles": ["editor.codeLens"],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vs-code-prettier-eslint.prettierLast": false,
+  "eslint.format.enable": true,
+  "eslint.options": {},
+  "prettier.jsxSingleQuote": true
+}
