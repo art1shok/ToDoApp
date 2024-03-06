@@ -1,5 +1,3 @@
-Check out the deployed version of the TodoApp: [Live Demo]()
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:

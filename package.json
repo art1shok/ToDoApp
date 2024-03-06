@@ -25,7 +25,6 @@
     "@typescript-eslint/parser": "^7.1.1",
     "@wemake-services/eslint-config-javascript": "^2.1.1",
     "@wemake-services/eslint-config-typescript": "^3.1.1",
-    "@wemake-services/stylelint-config-scss": "^4.0.1",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-config-wemake": "^0.6.0",
@@ -37,12 +36,7 @@
     "eslint-plugin-security": "^2.1.1",
     "eslint-plugin-sonarjs": "^0.24.0",
     "eslint-plugin-typescript": "^0.14.0",
-    "eslint-plugin-unicorn": "^51.0.1",
-    "stylelint": "^16.2.1",
-    "stylelint-a11y": "^1.2.3",
-    "stylelint-config-css-modules": "^4.4.0",
-    "stylelint-no-unsupported-browser-features": "^8.0.1",
-    "stylelint-webpack-plugin": "^5.0.0"
+    "eslint-plugin-unicorn": "^51.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
